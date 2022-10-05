@@ -16,8 +16,6 @@ class FrontController extends Controller
     public function index()
     {
         $movies = Movie::orderBy('id', 'desc')->paginate(96);
-        // dd(($movies));
-        // $movies = Movie::inRandomOrder()->get(['uuid', 'thumbnail', 'duration', 'visite']);
         return Inertia::render('Front/Welcome', compact('movies'));
 
     }
