@@ -15,31 +15,8 @@ class FrontController extends Controller
      */
     public function index()
     {
-        $movies = Movie::orderBy('id', 'desc')->paginate(96);
-        return Inertia::render('Front/Welcome', compact('movies'));
+        return Inertia::render('Front/Welcome');
 
-    }
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function detail(Movie $movie)
-    {
-        $movie->visite++; $movie->save();
-        $movies = Movie::inRandomOrder()->limit(36)->get();
-        return Inertia::render('Front/MovieDetail', compact('movie', 'movies'));
-    }
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function comingSoon()
-    {
-        return Inertia::render('Front/ComingSoon');
     }
 
 }

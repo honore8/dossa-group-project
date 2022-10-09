@@ -20,6 +20,5 @@ use Inertia\Inertia;
 
 Route::controller(FrontController::class)->group(function () {
     Route::get('/', 'index')->name('index');
-    Route::get('/movie/{movie:uuid}', 'detail')->name('detail');
-    Route::get('/coming-soon', 'comingSoon')->name('soon');
+
 });
