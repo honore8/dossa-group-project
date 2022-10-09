@@ -164,7 +164,7 @@ export default {
     background-attachment: fixed;
 
     background-size: cover;
-    height: 1280px;
+    height: 650px;
 
 }
 
@@ -185,5 +185,8 @@ export default {
     height: 8px;
     width: 20%;
     background-color: #2b7de1;
+}
+#services {
+    border-top: 20px solid #001b71;
 }
 </style>

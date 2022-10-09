@@ -3,29 +3,35 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-lg-3 col-md-12 footer-info">
-                <a href="index.html" class="logo d-flex align-items-center"> <span>www.dossa-group.com</span> </a>
+                <a href="#" class="logo text-center"> <span>www.dossa-group.com</span> </a>
                 <img src="../../../../public/statics/images/logo.png" class="img-fluid" alt="">
 
             </div>
             <div class="col-lg-3 col-6 footer-links text-end pe-md-5">
                 <h4>Useful Links</h4>
                 <ul>
-                    <li><a href="index.html#">Accueil</a></li>
-                    <li><a href="index.html#">Plans</a></li>
-                    <li><a href="index.html#">Nos projets</a></li>
-                    <li><a href="index.html#">Nos réalisations</a></li>
-                    <li><a href="index.html#">Qui sommes-nous ?</a></li>
-                    <li><a href="index.html#">Contacts</a></li>
-                    <li><a href="index.html#">Conseil</a></li>
+                    <li><a href="##">Accueil</a></li>
+                    <li><a href="##">Plans</a></li>
+                    <li><a href="##">Nos projets</a></li>
+                    <li><a href="##">Nos réalisations</a></li>
+                    <li><a href="##">Qui sommes-nous ?</a></li>
+                    <li><a href="##">Contacts</a></li>
+                    <li><a href="##">Conseil</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-6 footer-links">
                 <div class="row">
-                    <input type="text" class="form-control">
-                    <button type="submit" class="float-sm-end btn btn-primary mt-3">Envoyer</button>
+                    <div class="col-12">
+                        <input type="text" class="form-control">
+
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="float-sm-end btn btn-primary   mt-1">Envoyer</button>
+
+                    </div>
 
                 </div>
-                <div class="row">
+                <div class="row mt-3">
                     <p class="text-end"> 1er site 100% africain dédié au plan sur mesure et à la construction</p>
 
                 </div>
