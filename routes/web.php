@@ -22,5 +22,6 @@ Route::controller(FrontController::class)->group(function () {
     Route::name('front.')->group(function () {
         Route::get('/', 'index')->name('index');
         Route::get('/nos-realisations ', 'realization')->name('realization');
+        Route::get('/nos-appartements ', 'appartement')->name('appartement');
     });
 });

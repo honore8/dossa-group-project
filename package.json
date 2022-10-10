@@ -21,11 +21,6 @@
         "vue": "^3.2.31"
     },
     "dependencies": {
-        "@videojs-player/vue": "^1.0.0",
-        "bootstrap": "^5.2.0",
-        "datatables.net-bs5": "^1.12.1",
-        "datatables.net-vue3": "^1.0.0",
-        "video.js": "^7.20.2",
-        "vue-adblock-detector": "^1.2.4"
+        "bootstrap": "^5.2.0"
     }
 }

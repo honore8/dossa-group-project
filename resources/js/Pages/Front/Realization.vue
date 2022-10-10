@@ -17,112 +17,115 @@
 
 <section id="services" class="services sections-bg">
     <div class="container aos-init aos-animate" data-aos="fade-up">
-        <div class="section-header">
-            <h2>Our Services</h2>
-            <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
-        </div>
-        <div class="row gy-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item position-relative">
-                    <div class="icon"> <i class="bi bi-activity"></i></div>
-                    <h3>Nesciunt Mete</h3>
-                    <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-                    <a href="index.html#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+
+        <div class="pswp-gallery" id="my-gallery">
+
+            <div class="row mb-5">
+                <div class="col-6">
+                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item position-relative">
-                    <div class="icon"> <i class="bi bi-broadcast"></i></div>
-                    <h3>Eosle Commodi</h3>
-                    <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-                    <a href="index.html#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item position-relative">
-                    <div class="icon"> <i class="bi bi-easel"></i></div>
-                    <h3>Ledo Markt</h3>
-                    <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-                    <a href="index.html#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="service-item position-relative" style="background-color: #2b7de1">
+                <div class="col-6">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="icon"> <i class="bi bi-bounding-box-circles"></i></div>
-                            <h3>Asperiores Commodit</h3>
-                            <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-                            <a href="index.html#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                        <div class="col-md-6">
+                        <div class="col-6 pb-3">
+                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
 
                         </div>
+                        <div class="col-6">
+                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
 
+                        </div>
                     </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+
+                        </div>
+                        <div class="col-6">
+                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-2">
+                    <h3 class="float-sm-start rea-desc">La Casa de papel</h3>
+                    <a href="http://" class="btn btn-primary float-sm-end">Découvrir</a>
+                </div>
+                <div class="col-12">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique accusamus, amet fugit officiis dolor non consequuntur quidem quam ratione, nam totam doloribus voluptate corporis blanditiis ea voluptas! Sunt at incidunt cumque reiciendis, voluptatem provident eum! Odit et aut deleniti esse cumque expedita ut, maxime enim dolorum dicta similique excepturi.</p>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-6">
+                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
 
                 </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-6 pb-3">
+                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+
+                        </div>
+                        <div class="col-6">
+                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+
+                        </div>
+                        <div class="col-6">
+                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-2">
+                    <h3 class="float-sm-start rea-desc">La Casa de papel</h3>
+                    <a href="http://" class="btn btn-primary float-sm-end">Découvrir</a>
+                </div>
+                <div class="col-12">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique accusamus, amet fugit officiis dolor non consequuntur quidem quam ratione, nam totam doloribus voluptate corporis blanditiis ea voluptas! Sunt at incidunt cumque reiciendis, voluptatem provident eum! Odit et aut deleniti esse cumque expedita ut, maxime enim dolorum dicta similique excepturi.</p>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-6">
+                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-6 pb-3">
+                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+
+                        </div>
+                        <div class="col-6">
+                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+
+                        </div>
+                        <div class="col-6">
+                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-2">
+                    <h3 class="float-sm-start rea-desc">La Casa de papel</h3>
+                    <a href="http://" class="btn btn-primary float-sm-end">Découvrir</a>
+                </div>
+                <div class="col-12">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique accusamus, amet fugit officiis dolor non consequuntur quidem quam ratione, nam totam doloribus voluptate corporis blanditiis ea voluptas! Sunt at incidunt cumque reiciendis, voluptatem provident eum! Odit et aut deleniti esse cumque expedita ut, maxime enim dolorum dicta similique excepturi.</p>
+                </div>
             </div>
 
-        </div>
-    </div>
-    <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
-        <div class="section-header">
-            <h2>Our Services</h2>
-            <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
-        </div>
-        <div class="row gy-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-3 col-md-6">
-                <div class="service-item position-relative">
-                    <div class="icon"> <i class="bi bi-activity"></i></div>
-                    <h3>Nesciunt Mete</h3>
-                    <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-                    <a href="index.html#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="service-item position-relative">
-                    <div class="icon"> <i class="bi bi-broadcast"></i></div>
-                    <h3>Eosle Commodi</h3>
-                    <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-                    <a href="index.html#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="service-item position-relative">
-                    <div class="icon"> <i class="bi bi-easel"></i></div>
-                    <h3>Ledo Markt</h3>
-                    <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-                    <a href="index.html#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="service-item position-relative">
-                    <div class="icon"> <i class="bi bi-easel"></i></div>
-                    <h3>Ledo Markt</h3>
-                    <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-                    <a href="index.html#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="partner-line"></div>
-                Partenaires et Sponsorts
-            </div>
-            <div class="col-md-8">
-                df
-            </div>
-        </div>
-        <div class="row d-flex justify-content-md-between">
-            <div class="col-md-9">
-               
-               <h5>CONFIGUREZ VOTRE MAISON AVEC UN DEVIS GRATUIT</h5>
-               <h6>En quelques clics recevez un devis par mail</h6>
-            </div>
-            <div class="col-md-3">
-                df
-            </div>
         </div>
     </div>
 
@@ -142,6 +145,9 @@ export default {
         Header,
         Footer,
         // Link,
+    },
+    mounted() {
+
     },
     methods: {
         getFormatTime(time) {
@@ -168,6 +174,9 @@ export default {
 
 }
 
+.rea-desc {
+    color: #001b71;
+}
 .hero h1 {
     font-size: 70px;
     font-weight: 700;
@@ -181,11 +190,13 @@ export default {
     margin-bottom: 20px;
     color: #fff;
 }
-.partner-line{
+
+.partner-line {
     height: 8px;
     width: 20%;
     background-color: #2b7de1;
 }
+
 #services {
     border-top: 20px solid #001b71;
 }

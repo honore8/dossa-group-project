@@ -1003,7 +1003,7 @@
     font-size: 22px;
     position: relative;
     display: inline-block;
-    border-bottom: 4px solid #eeeeee;
+    /* border-bottom: 4px solid #eeeeee; */
     transition: 0.3s;
   }
   

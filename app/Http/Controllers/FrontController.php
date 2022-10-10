@@ -28,5 +28,15 @@ class FrontController extends Controller
         return Inertia::render('Front/Realization');
 
     }
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function appartement()
+    {
+        return Inertia::render('Front/Appartement');
+
+    }
 
 }
