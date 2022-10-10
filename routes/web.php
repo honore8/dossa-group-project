@@ -19,6 +19,8 @@ use Inertia\Inertia;
 
 
 Route::controller(FrontController::class)->group(function () {
-    Route::get('/', 'index')->name('index');
-
+    Route::name('front.')->group(function () {
+        Route::get('/', 'index')->name('index');
+        Route::get('/nos-realisations ', 'realization')->name('realization');
+    });
 });

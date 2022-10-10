@@ -18,5 +18,15 @@ class FrontController extends Controller
         return Inertia::render('Front/Welcome');
 
     }
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function realization()
+    {
+        return Inertia::render('Front/Realization');
+
+    }
 
 }
