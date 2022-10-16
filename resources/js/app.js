@@ -1,6 +1,3 @@
-import * as bootstrap from 'bootstrap'
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-
 import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/inertia-vue3';
 import { InertiaProgress } from '@inertiajs/progress';

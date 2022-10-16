@@ -10,7 +10,7 @@
             <div class="col-md-3">
                 <!-- <a class="me-md-2 btn btn-primary bg-dossa" :href="route('front.index')">Trouvez un plan</a> -->
 
-                <Link class="btn btn-outline-dark text-dossa" style="border: 2px solid #001b71" :href="route('front.index')"><b>Trouvez un plan</b> </Link>
+                <Link class="btn btn-outline-dark text-dossa" style="border: 2px solid #001b71" :href="route('front.plan')"><b>Trouvez un plan</b> </Link>
 
             </div>
         </div>

@@ -6,8 +6,8 @@
         <div class="container position-relative">
             <div class="row gy-5" data-aos="fade-in">
                 <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-end">
-                    <h1>Première plateforme <br> d'achat de plan en Afrique</h1>
-                    <p>L'architecture sous toutes ses formes</p>
+                    <h1>Africa is the futur, just try</h1>
+                    <p>DOSSA GROUP c'est plusieurs projets <br> réalisés à travers le monde</p>
                 </div>
             </div>
         </div>
@@ -22,27 +22,27 @@
 
             <div class="row mb-5">
                 <div class="col-6">
-                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                    <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                 </div>
                 <div class="col-6">
                     <div class="row">
                         <div class="col-6 pb-3">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                         </div>
                         <div class="col-6">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                         </div>
                         <div class="col-6">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                         </div>
                     </div>
@@ -57,27 +57,27 @@
             </div>
             <div class="row mb-5">
                 <div class="col-6">
-                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                    <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                 </div>
                 <div class="col-6">
                     <div class="row">
                         <div class="col-6 pb-3">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                         </div>
                         <div class="col-6">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                         </div>
                         <div class="col-6">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                         </div>
                     </div>
@@ -92,27 +92,27 @@
             </div>
             <div class="row mb-5">
                 <div class="col-6">
-                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                    <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                 </div>
                 <div class="col-6">
                     <div class="row">
                         <div class="col-6 pb-3">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                         </div>
                         <div class="col-6">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                         </div>
                         <div class="col-6">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                         </div>
                     </div>
@@ -160,28 +160,16 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 .dossa-group {
 
-    background-image: url("../../../../public/statics/images/11.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-image: url("../../../../public/statics/images/12.jpg");
 
-    background-attachment: fixed;
-
-    background-size: cover;
-    height: 650px;
 
 }
 
 .rea-desc {
     color: #001b71;
-}
-.hero h1 {
-    font-size: 70px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: #fff;
 }
 
 .partner-line {

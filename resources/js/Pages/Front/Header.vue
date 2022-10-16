@@ -95,12 +95,29 @@ export default {
 
 }
 
+.dossa-group {
+
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    background-size: cover;
+    height: 650px;
+
+}
+
 @media (min-width: 992px) {
     .logo {
         position: relative;
         bottom: 22px;
 
     }
+}
+@media (max-width: 1279px) {
+.logo .img-fluid {
+    max-width: 50% !important;
+}
 }
 
 #navbar {
@@ -130,11 +147,10 @@ div.carre {
     margin-bottom: 20px;
     color: #fff;
 }
-
   
   @media (max-width: 767px) {
 .hero h1 {
-    font-size: 40px;
+    font-size: 40px !important;
 }
 
 .hero p {
@@ -146,5 +162,12 @@ div.carre {
 a.btn-outline-dark.text-dossa:hover,
 a.btn-outline-dark.text-dossa:focus {
     color: #fff !important;
+}
+
+.hero p {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #fff;
 }
 </style>

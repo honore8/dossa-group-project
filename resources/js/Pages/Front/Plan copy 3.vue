@@ -109,12 +109,6 @@ export default {
     color: #001b71;
 }
 
-.hero h1 {
-    font-size: 70px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: #fff;
-}
 
 .partner-line {
     height: 8px;

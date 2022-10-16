@@ -6,8 +6,8 @@
         <div class="container position-relative">
             <div class="row gy-5" data-aos="fade-in">
                 <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-end">
-                    <h1>Première plateforme <br> d'achat de plan en Afrique</h1>
-                    <p>L'architecture sous toutes ses formes</p>
+                    <h1>Vous souhaitez faire <br> construire votre maison ?</h1>
+                    <p>L'estimation de votre projet immobilier</p>
                 </div>
             </div>
         </div>
@@ -28,20 +28,20 @@
                 <div class="col-lg-2">
                     <div class="row">
                         <div class="col-lg-12 pb-3">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/7.png" alt="" class="w-100" />
 
                         </div>
                     </div>
                     <div class="row d-none d-lg-block">
                         <div class="col-lg-12">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                         </div>
                     </div>
 
                 </div>
                 <div class="col-lg-4 d-none d-lg-block">
-                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                    <img src="../../../../public/statics/images/9.jpg" alt="" class="w-100" />
 
                 </div>
                 <div class="col-lg-6 mt-2">
@@ -50,8 +50,8 @@
                     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique accusamus, amet fugit officiis dolor non consequuntur quidem quam ratione, nam totam doloribus voluptate corporis blanditiis ea voluptas! Sunt at incidunt cumque reiciendis, voluptatem provident eum! Odit et aut deleniti esse cumque expedita ut, maxime enim dolorum dicta similique excepturi.</div>
 
                     <div>
-                        <a href="http://" class="btn btn-primary me-2">Découvrir</a>
-                        <a href="http://" class="btn btn-primary me-2">Acheter</a>
+                        <a href="#" class="btn btn-primary me-2">Découvrir</a>
+                        <a href="#" class="btn btn-primary me-2">Acheter</a>
                         <span class="fw-bold h3 pt-2 position-relative" style="top: 8px"> 2001</span>
 
                     </div>
@@ -65,20 +65,20 @@
                 <div class="col-lg-2">
                     <div class="row">
                         <div class="col-lg-12 pb-3">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/7.png" alt="" class="w-100" />
 
                         </div>
                     </div>
                     <div class="row d-none d-lg-block">
                         <div class="col-lg-12">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                         </div>
                     </div>
 
                 </div>
                 <div class="col-lg-4 d-none d-lg-block">
-                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                    <img src="../../../../public/statics/images/9.jpg" alt="" class="w-100" />
 
                 </div>
                 <div class="col-lg-6 mt-2">
@@ -87,8 +87,8 @@
                     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique accusamus, amet fugit officiis dolor non consequuntur quidem quam ratione, nam totam doloribus voluptate corporis blanditiis ea voluptas! Sunt at incidunt cumque reiciendis, voluptatem provident eum! Odit et aut deleniti esse cumque expedita ut, maxime enim dolorum dicta similique excepturi.</div>
 
                     <div>
-                        <a href="http://" class="btn btn-primary me-2">Découvrir</a>
-                        <a href="http://" class="btn btn-primary me-2">Acheter</a>
+                        <a href="#" class="btn btn-primary me-2">Découvrir</a>
+                        <a href="#" class="btn btn-primary me-2">Acheter</a>
                         <span class="fw-bold h3 pt-2 position-relative" style="top: 8px"> 2001</span>
 
                     </div>
@@ -102,20 +102,20 @@
                 <div class="col-lg-2">
                     <div class="row">
                         <div class="col-lg-12 pb-3">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/7.png" alt="" class="w-100" />
 
                         </div>
                     </div>
                     <div class="row d-none d-lg-block">
                         <div class="col-lg-12">
-                            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                            <img src="../../../../public/statics/images/14.jpg" alt="" class="w-100" />
 
                         </div>
                     </div>
 
                 </div>
                 <div class="col-lg-4 d-none d-lg-block">
-                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100" />
+                    <img src="../../../../public/statics/images/9.jpg" alt="" class="w-100" />
 
                 </div>
                 <div class="col-lg-6 mt-2">
@@ -124,8 +124,8 @@
                     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique accusamus, amet fugit officiis dolor non consequuntur quidem quam ratione, nam totam doloribus voluptate corporis blanditiis ea voluptas! Sunt at incidunt cumque reiciendis, voluptatem provident eum! Odit et aut deleniti esse cumque expedita ut, maxime enim dolorum dicta similique excepturi.</div>
 
                     <div>
-                        <a href="http://" class="btn btn-primary me-2">Découvrir</a>
-                        <a href="http://" class="btn btn-primary me-2">Acheter</a>
+                        <a href="#" class="btn btn-primary me-2">Découvrir</a>
+                        <a href="#" class="btn btn-primary me-2">Acheter</a>
                         <span class="fw-bold h3 pt-2 position-relative" style="top: 8px"> 2001</span>
 
                     </div>
@@ -167,29 +167,13 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 .dossa-group {
-
-    background-image: url("../../../../public/statics/images/11.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-
-    background-attachment: fixed;
-
-    background-size: cover;
-    height: 650px;
-
+    background-image: url("../../../../public/statics/images/11.jpg") !important;
 }
 
 .rea-desc {
     color: #001b71;
-}
-
-.hero h1 {
-    font-size: 70px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: #fff;
 }
 
 .partner-line {

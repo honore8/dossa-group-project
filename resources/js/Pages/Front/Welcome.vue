@@ -24,7 +24,7 @@
         <div class="row gy-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-4 col-md-6">
                 <div class="service-item position-relative p-0">
-                    <img class="img-fluid" src="../../../../public/statics/images/01.jpg" alt="">
+                    <img class="img-fluid" src="../../../../public/statics/images/7.png" alt="">
                     <div class="p-2">
                         <div class="partner-line my-1"></div>
                         <h3 class="mt-2 text-black-50">Construction / Extension</h3>
@@ -35,7 +35,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item position-relative p-0">
-                    <img class="img-fluid" src="../../../../public/statics/images/01.jpg" alt="">
+                    <img class="img-fluid" src="../../../../public/statics/images/14.jpg" alt="">
                     <div class="p-2">
                         <div class="partner-line my-1"></div>
                         <h3 class="mt-2 text-black-50">Rénovation</h3>
@@ -46,7 +46,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item position-relative p-0">
-                    <img class="img-fluid" src="../../../../public/statics/images/01.jpg" alt="">
+                    <img class="img-fluid" src="../../../../public/statics/images/9.jpg" alt="">
                     <div class="p-2">
                         <div class="partner-line my-1"></div>
                         <h3 class="mt-2 text-black-50">Architecture et Design</h3>
@@ -73,7 +73,7 @@
                                 <span><i class="bi bi-circle-fill me-3"></i></span>
                                 <p><b>Photos et réalisations</b> Découvrez de nombreux réalisation de nos maisons au Togo et en Afrique de l'ouest</p>
                             </div>
-                            <a class="me-md-2 btn btn-primary bg-dossa" :href="route('front.index')">Trouvez un plan</a>
+                            <Link class="me-md-2 btn btn-primary bg-dossa" :href="route('front.plan')">Trouvez un plan</Link>
 
                         </div>
                         <div class="col-lg-6 mt-3 mt-lg-0">
@@ -90,35 +90,35 @@
     <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
         <div class="row gy-4 aos-init aos-animate mb-5" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-3 col-md-6 mt-5">
-                <img class="img-fluid" src="../../../../public/statics/images/01.jpg" alt="">
+                <img class="img-fluid" src="../../../../public/statics/images/7.png" alt="">
             </div>
             <div class="col-lg-3 col-md-6 mt-5">
-                <img class="img-fluid" src="../../../../public/statics/images/01.jpg" alt="">
+                <img class="img-fluid" src="../../../../public/statics/images/14.jpg" alt="">
             </div>
             <div class="col-lg-3 col-md-6 mt-5">
-                <img class="img-fluid" src="../../../../public/statics/images/01.jpg" alt="">
+                <img class="img-fluid" src="../../../../public/statics/images/9.jpg" alt="">
             </div>
             <div class="col-lg-3 col-md-6 mt-5">
                 <img class="img-fluid" src="../../../../public/statics/images/01.jpg" alt="">
             </div>
         </div>
         <div class="container">
-        <div class="row mt-2 pb-5">
-            <div class="col-md-4 pt-5">
-                <div class="partner-line"></div>
-                <h4 class="text-black-50">Partenaires et Sponsorts</h4>
-            </div>
-            <div class="col-md-8">
-                <img class="img-fluid me-4" src="../../../../public/statics/images/partners/1.jpg" alt="">
-                <img class="img-fluid me-4" src="../../../../public/statics/images/partners/2.jpg" alt="">
-                <img class="img-fluid me-4" src="../../../../public/statics/images/partners/3.jpg" alt="">
-                <img class="img-fluid me-4" src="../../../../public/statics/images/partners/4.jpg" alt="">
-                <!-- <img class="img-fluid me-4" src="../../../../public/statics/images/partners/5.jpg" alt=""> -->
-                <!-- <img class="img-fluid me-4" src="../../../../public/statics/images/partners/6.jpg" alt=""> -->
-                <!-- <img class="img-fluid me-4" src="../../../../public/statics/images/partners/1.jpg" alt=""> -->
+            <div class="row mt-2 pb-5">
+                <div class="col-md-4 pt-5">
+                    <div class="partner-line"></div>
+                    <h4 class="text-black-50">Partenaires et Sponsorts</h4>
+                </div>
+                <div class="col-md-8">
+                    <img class="img-fluid me-4" src="../../../../public/statics/images/partners/1.jpg" alt="">
+                    <img class="img-fluid me-4" src="../../../../public/statics/images/partners/2.jpg" alt="">
+                    <img class="img-fluid me-4" src="../../../../public/statics/images/partners/3.jpg" alt="">
+                    <img class="img-fluid me-4" src="../../../../public/statics/images/partners/4.jpg" alt="">
+                    <!-- <img class="img-fluid me-4" src="../../../../public/statics/images/partners/5.jpg" alt=""> -->
+                    <!-- <img class="img-fluid me-4" src="../../../../public/statics/images/partners/6.jpg" alt=""> -->
+                    <!-- <img class="img-fluid me-4" src="../../../../public/statics/images/partners/1.jpg" alt=""> -->
 
+                </div>
             </div>
-        </div>
 
         </div>
 
@@ -131,7 +131,7 @@
 <script>
 import Header from './Header.vue'
 import Footer from './Footer.vue'
-// import { Link } from '@inertiajs/inertia-vue3';
+import { Link } from '@inertiajs/inertia-vue3';
 export default {
     props: {
         movies: Object
@@ -139,7 +139,7 @@ export default {
     components: {
         Header,
         Footer,
-        // Link,
+        Link,
     },
     methods: {
         getFormatTime(time) {
@@ -152,26 +152,11 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 .dossa-group {
 
-    background-image: url("../../../../public/statics/images/11.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-image: url("../../../../public/statics/images/11.jpg") !important;
 
-    background-attachment: fixed;
-
-    background-size: cover;
-    height: 650px;
-
-}
-
-
-.hero p {
-    font-size: 42px;
-    font-weight: 300;
-    margin-bottom: 20px;
-    color: #fff;
 }
 
 .partner-line {

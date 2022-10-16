@@ -15,12 +15,12 @@
     </section>
 </div>
 
-<section id="services" class="services sections-bg">
+<section id="services" class="services sections-bg py-5">
     <div class="container aos-init aos-animate mt-5" data-aos="fade-up">
         <div class="row gy-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-4 col-md-6">
                 <div class="service-item position-relative" style="padding: 0px">
-                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100 img-fluid" />
+                    <img src="../../../../public/statics/images/15.png" alt="" class="w-100 img-fluid" />
                    <div>
                     <a href="index.html#" class="readmore stretched-link px-3">
                          <h3 >Appartement meublés <br>
@@ -32,7 +32,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item position-relative" style="padding: 0px">
-                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100 img-fluid" />
+                    <img src="../../../../public/statics/images/15.png" alt="" class="w-100 img-fluid" />
                    <div>
                     <a href="index.html#" class="readmore stretched-link px-3">
                          <h3 >Appartement meublés <br>
@@ -44,7 +44,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item position-relative" style="padding: 0px">
-                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100 img-fluid" />
+                    <img src="../../../../public/statics/images/15.png" alt="" class="w-100 img-fluid" />
                    <div>
                     <a href="index.html#" class="readmore stretched-link px-3">
                          <h3 >Appartement meublés <br>
@@ -56,7 +56,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item position-relative" style="padding: 0px">
-                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100 img-fluid" />
+                    <img src="../../../../public/statics/images/15.png" alt="" class="w-100 img-fluid" />
                    <div>
                     <a href="index.html#" class="readmore stretched-link px-3">
                          <h3 >Appartement meublés <br>
@@ -68,7 +68,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item position-relative" style="padding: 0px">
-                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100 img-fluid" />
+                    <img src="../../../../public/statics/images/15.png" alt="" class="w-100 img-fluid" />
                    <div>
                     <a href="index.html#" class="readmore stretched-link px-3">
                          <h3 >Appartement meublés <br>
@@ -80,7 +80,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item position-relative" style="padding: 0px">
-                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100 img-fluid" />
+                    <img src="../../../../public/statics/images/15.png" alt="" class="w-100 img-fluid" />
                    <div>
                     <a href="index.html#" class="readmore stretched-link px-3">
                          <h3 >Appartement meublés <br>
@@ -92,7 +92,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item position-relative" style="padding: 0px">
-                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100 img-fluid" />
+                    <img src="../../../../public/statics/images/15.png" alt="" class="w-100 img-fluid" />
                    <div>
                     <a href="index.html#" class="readmore stretched-link px-3">
                          <h3 >Appartement meublés <br>
@@ -104,7 +104,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item position-relative" style="padding: 0px">
-                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100 img-fluid" />
+                    <img src="../../../../public/statics/images/15.png" alt="" class="w-100 img-fluid" />
                    <div>
                     <a href="index.html#" class="readmore stretched-link px-3">
                          <h3 >Appartement meublés <br>
@@ -116,7 +116,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item position-relative" style="padding: 0px">
-                    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" class="w-100 img-fluid" />
+                    <img src="../../../../public/statics/images/15.png" alt="" class="w-100 img-fluid" />
                    <div>
                     <a href="index.html#" class="readmore stretched-link px-3">
                          <h3 >Appartement meublés <br>
@@ -161,29 +161,15 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 .dossa-group {
 
-    background-image: url("../../../../public/statics/images/11.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-
-    background-attachment: fixed;
-
-    background-size: cover;
-    height: 650px;
+    background-image: url("../../../../public/statics/images/110.jpg") !important;
 
 }
 
 .rea-desc {
     color: #001b71;
-}
-
-.hero h1 {
-    font-size: 70px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: #fff;
 }
 
 .hero p {

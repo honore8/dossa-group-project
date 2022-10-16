@@ -29,7 +29,7 @@
             <div class="row gy-4">
                 <div class="col-lg-6">
                     <!-- <h6 class="fw-bold">Faire de DOSSA Group une référence en matière d’aménagement d’intérieur</h6> -->
-                    <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
+                    <img src="../../../../public/statics/images/14.jpg" class="img-fluid rounded-4 mb-4" alt="">
                     <div class="content ps-0">
                         <b>Nos Objectifs</b>
                         <ul class="mt-3">
@@ -53,7 +53,7 @@
                         <b>Nos valeurs</b>
                         <p>
                             La création d’emploi, le respect des engagements, l’efficience et la crédibilité sont nos valeurs.</p>
-                        <div class="position-relative mt-4"> <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/about-2.jpg" class="img-fluid rounded-4" alt=""> <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a></div>
+                        <div class="position-relative mt-4"> <img src="../../../../public/statics/images/2.png" class="img-fluid rounded-4" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -67,15 +67,15 @@
                 <p class="mt-2">
                     Notre vision est de relever le grand défi dans le domaine de l’aménagement intérieur, Faire en sorte que de millier d’architectes à travers le monde puissent vendre leurs travaux partout dans le monde. Une vision tendancieuse mais possible à réaliser si on y investit du temps, les compétences et les matériels adéquats.
                 </p>
-                <div class="content ps-0 ps-lg-5">
+                <div class="content ps-lg-5">
 
                     <ul class="list-unstyled">
-                        <li class="me-3"><i class="bi bi-check-circle-fill text-dossa"></i> L’étude de votre projet immobilier</li>
-                        <li class="me-3"><i class="bi bi-check-circle-fill text-dossa"></i> Les dossiers administratifs</li>
-                        <li class="me-3"><i class="bi bi-check-circle-fill text-dossa"></i> La réalisation de vos plans d’architecte</li>
-                        <li class="me-3"><i class="bi bi-check-circle-fill text-dossa"></i> La construction et le suivi du chantier</li>
-                        <li class="me-3"><i class="bi bi-check-circle-fill text-dossa"></i> L’aménagement, l’agencement et le design intérieur de votre maison ou appartement</li>
-                        <li class="me-3"><i class="bi bi-check-circle-fill text-dossa"></i> Les étapes de réalisation de vos travaux et de la construction de votre Maison</li>
+                        <li class="me-3"><i class="bi bi-check-circle-fill text-primary"></i> L’étude de votre projet immobilier</li>
+                        <li class="me-3"><i class="bi bi-check-circle-fill text-primary"></i> Les dossiers administratifs</li>
+                        <li class="me-3"><i class="bi bi-check-circle-fill text-primary"></i> La réalisation de vos plans d’architecte</li>
+                        <li class="me-3"><i class="bi bi-check-circle-fill text-primary"></i> La construction et le suivi du chantier</li>
+                        <li class="me-3"><i class="bi bi-check-circle-fill text-primary"></i> L’aménagement, l’agencement et le design intérieur de votre maison ou appartement</li>
+                        <li class="me-3"><i class="bi bi-check-circle-fill text-primary"></i> Les étapes de réalisation de vos travaux et de la construction de votre Maison</li>
                     </ul>
                 </div>
             </div>
@@ -112,17 +112,10 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 .dossa-group {
 
-    background-image: url("../../../../public/statics/images/11.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-
-    background-attachment: fixed;
-
-    background-size: cover;
-    height: 650px;
+    background-image: url("../../../../public/statics/images/11.jpg") !important;
 
 }
 
@@ -130,12 +123,6 @@ export default {
     color: #001b71;
 }
 
-.hero h1 {
-    font-size: 70px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: #fff;
-}
 
 .partner-line {
     height: 8px;
