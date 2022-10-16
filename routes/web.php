@@ -23,5 +23,8 @@ Route::controller(FrontController::class)->group(function () {
         Route::get('/', 'index')->name('index');
         Route::get('/nos-realisations ', 'realization')->name('realization');
         Route::get('/nos-appartements ', 'appartement')->name('appartement');
+        Route::get('/nos-plans ', 'plan')->name('plan');
+        Route::get('/contact ', 'contact')->name('contact');
+        Route::get('/qui-sommes-nous ', 'who')->name('who');
     });
 });

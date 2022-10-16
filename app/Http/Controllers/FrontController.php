@@ -38,5 +38,37 @@ class FrontController extends Controller
         return Inertia::render('Front/Appartement');
 
     }
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function plan()
+    {
+        return Inertia::render('Front/Plan');
+
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function contact()
+    {
+        return Inertia::render('Front/Contact');
+
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function who()
+    {
+        return Inertia::render('Front/Who');
+
+    }
 
 }

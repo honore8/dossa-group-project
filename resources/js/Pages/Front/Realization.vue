@@ -16,7 +16,7 @@
 </div>
 
 <section id="services" class="services sections-bg">
-    <div class="container aos-init aos-animate" data-aos="fade-up">
+    <div class="container aos-init aos-animate mt-5" data-aos="fade-up">
 
         <div class="pswp-gallery" id="my-gallery">
 
@@ -180,13 +180,6 @@ export default {
 .hero h1 {
     font-size: 70px;
     font-weight: 700;
-    margin-bottom: 20px;
-    color: #fff;
-}
-
-.hero p {
-    font-size: 42px;
-    font-weight: 300;
     margin-bottom: 20px;
     color: #fff;
 }

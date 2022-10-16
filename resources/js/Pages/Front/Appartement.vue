@@ -16,7 +16,7 @@
 </div>
 
 <section id="services" class="services sections-bg">
-    <div class="container aos-init aos-animate" data-aos="fade-up">
+    <div class="container aos-init aos-animate mt-5" data-aos="fade-up">
         <div class="row gy-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-4 col-md-6">
                 <div class="service-item position-relative" style="padding: 0px">

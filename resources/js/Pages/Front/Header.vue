@@ -32,18 +32,17 @@
 </div>
 <header id="header" class="header d-flex align-items-center">
     <div class="container container-xl d-flex align-items-center justify-content-between justify-content-xl-start">
-        <a href="index.html" class="logo d-flex align-items-center ">
+        <Link href="/" class="logo d-flex align-items-center ">
             <img src="../../../../public/statics/images/logo.png" class="img-fluid" alt="">
-        </a>
+        </Link>
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="btn btn-primary me-md-2 px-2" href="index.html#hero">Accueil</a></li>
-                <li><a class="me-md-2" href="index.html#about">Plans</a></li>
-                <li><a class="me-md-2" href="index.html#services">Nos réalisations</a></li>
-                <li><a class="me-md-2" href="index.html#portfolio">Nos appartements</a></li>
-                <li><a class="me-md-2" href="index.html#team">Qui sommes-nous ?</a></li>
-
-                <li><a href="index.html#contact">Contacts</a></li>
+                <li><Link class="me-md-2" :href="route('front.index')">Accueil</Link></li>
+                <li><Link class="me-md-2" :href="route('front.plan')">Plans</Link></li>
+                <li><Link class="me-md-2" :href="route('front.realization')">Nos réalisations</Link></li>
+                <li><Link class="me-md-2" :href="route('front.appartement')">Nos appartements</Link></li>
+                <li><Link class="me-md-2" :href="route('front.who')">Qui sommes-nous ?</Link></li>
+                <li><Link :href="route('front.contact')">Contacts</Link></li>
             </ul>
         </nav>
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i> <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
@@ -52,16 +51,21 @@
 </template>
 
 <script>
-// import { Link } from '@inertiajs/inertia-vue3';
+import { Link } from '@inertiajs/inertia-vue3';
 import 'bootstrap/dist/js/bootstrap';
 import mainFunction from '../../../../public/statics/js/main';
 
 export default {
     components: {
-        // Link
+        Link
     },
     mounted() {
         mainFunction()
+
+    let links = document.querySelectorAll('header '+'[href="' + window.location.href + '"]');
+        for (const l of links) {
+            l.classList.add('btn', 'btn-primary', 'px-2')
+        }
     },
 }
 </script>
@@ -86,18 +90,18 @@ export default {
 
 @media (max-width: 991px) {
     .mobile-nav-show {
-        font-size: 79px;
+        font-size: 60px;
     }
-    
+
 }
+
 @media (min-width: 992px) {
     .logo {
         position: relative;
         bottom: 22px;
-        
-    } 
-}
 
+    }
+}
 
 #navbar {
     margin-left: 3.5%;
@@ -118,5 +122,29 @@ div.carre {
 .col-8-cc {
     flex: 0 0 auto;
     width: 71.666667%;
+}
+
+.hero h1 {
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+  
+  @media (max-width: 767px) {
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 30px !important;
+}
+
+  }
+  
+a.btn-outline-dark.text-dossa:hover,
+a.btn-outline-dark.text-dossa:focus {
+    color: #fff !important;
 }
 </style>

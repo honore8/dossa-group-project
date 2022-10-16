@@ -14,13 +14,17 @@ export default function mainFunction() {
     if (selectHeader) {
       let headerOffset = selectHeader.offsetTop;
       let nextElement = selectHeader.nextElementSibling;
+      let rLogo = document.querySelector('.container.container-xl .logo img')
   
       const headerFixed = () => {
         if ((headerOffset - window.scrollY) <= 0) {
-          selectHeader.classList.add('sticked');
+          selectHeader.classList.add('sticked', 'bg-dossa');
+          rLogo.classList.add('w-50', 'ds-mt-5');
+
           if (nextElement) nextElement.classList.add('sticked-header-offset');
         } else {
-          selectHeader.classList.remove('sticked');
+          selectHeader.classList.remove('sticked', 'bg-dossa');
+          rLogo.classList.remove('w-50', 'ds-mt-5');
           if (nextElement) nextElement.classList.remove('sticked-header-offset');
         }
       }

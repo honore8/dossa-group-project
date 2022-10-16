@@ -17,46 +17,67 @@
 
 <section id="services" class="services sections-bg">
     <div class="container aos-init aos-animate" data-aos="fade-up">
-        <div class="section-header">
-            <h2>Our Services</h2>
-            <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+        <div class="section-header mt-5">
+            <h3 class="fw-bold text-black-50" style="font-size: 60px">Dossa Group</h3>
+            <p>vous propose des plans de votre futur maison</p>
         </div>
         <div class="row gy-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-4 col-md-6">
-                <div class="service-item position-relative">
-                    <div class="icon"> <i class="bi bi-activity"></i></div>
-                    <h3>Nesciunt Mete</h3>
-                    <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-                    <a href="index.html#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+                <div class="service-item position-relative p-0">
+                    <img class="img-fluid" src="../../../../public/statics/images/01.jpg" alt="">
+                    <div class="p-2">
+                        <div class="partner-line my-1"></div>
+                        <h3 class="mt-2 text-black-50">Construction / Extension</h3>
+                        <p>Cette magnifique villa comprenant trois chambres et une suite parentale saura séduire les familles. D'architecture contemporaine et inovante, cette maison compacte et optimisée, sera un atout pour les économies d'energie.</p>
+
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-                <div class="service-item position-relative">
-                    <div class="icon"> <i class="bi bi-broadcast"></i></div>
-                    <h3>Eosle Commodi</h3>
-                    <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-                    <a href="index.html#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+                <div class="service-item position-relative p-0">
+                    <img class="img-fluid" src="../../../../public/statics/images/01.jpg" alt="">
+                    <div class="p-2">
+                        <div class="partner-line my-1"></div>
+                        <h3 class="mt-2 text-black-50">Rénovation</h3>
+                        <p>Cette magnifique villa comprenant trois chambres et une suite parentale saura séduire les familles. D'architecture contemporaine et inovante, cette maison compacte et optimisée, sera un atout pour les économies d'energie.</p>
+
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-                <div class="service-item position-relative">
-                    <div class="icon"> <i class="bi bi-easel"></i></div>
-                    <h3>Ledo Markt</h3>
-                    <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-                    <a href="index.html#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+                <div class="service-item position-relative p-0">
+                    <img class="img-fluid" src="../../../../public/statics/images/01.jpg" alt="">
+                    <div class="p-2">
+                        <div class="partner-line my-1"></div>
+                        <h3 class="mt-2 text-black-50">Architecture et Design</h3>
+                        <p>Cette magnifique villa comprenant trois chambres et une suite parentale saura séduire les familles. D'architecture contemporaine et inovante, cette maison compacte et optimisée, sera un atout pour les économies d'energie.</p>
+
+                    </div>
                 </div>
             </div>
             <div class="col-12">
                 <div class="service-item position-relative" style="background-color: #2b7de1">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="icon"> <i class="bi bi-bounding-box-circles"></i></div>
-                            <h3>Asperiores Commodit</h3>
-                            <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-                            <a href="index.html#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                        <div class="col-md-6">
+                    <div class="row text-white d-flex justify-content-between">
+                        <div class="col-lg-5">
+                            <div class="mb-4" style="font-size: 22px">Découvrez les projets déjà réalisés et <b>trouvez la bonne idée</b></div>
 
+                            <div class="stats-item d-flex align-items-center mb-2">
+                                <span><i class="bi bi-circle-fill me-3"></i></span>
+                                <p><b>Plusieurs réalisations à notre actif</b><br> Entrez vos critères et trouvez la maison de vos rêves.</p>
+                            </div>
+                            <div class="stats-item d-flex align-items-center mb-2">
+                                <span><i class="bi bi-circle-fill me-3"></i></span>
+                                <p><b>APS & APD à volonté</b> <br> Deécouvrez des modèles de maisons 3D et des visiters virtuelles pour plus de fun et un concept de rêves.</p>
+                            </div>
+                            <div class="stats-item d-flex align-items-center mb-2">
+                                <span><i class="bi bi-circle-fill me-3"></i></span>
+                                <p><b>Photos et réalisations</b> Découvrez de nombreux réalisation de nos maisons au Togo et en Afrique de l'ouest</p>
+                            </div>
+                            <a class="me-md-2 btn btn-primary bg-dossa" :href="route('front.index')">Trouvez un plan</a>
+
+                        </div>
+                        <div class="col-lg-6 mt-3 mt-lg-0">
+                            <img class="img-fluid" src="../../../../public/statics/images/01.jpg" alt="">
                         </div>
 
                     </div>
@@ -67,63 +88,40 @@
         </div>
     </div>
     <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
-        <div class="section-header">
-            <h2>Our Services</h2>
-            <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
-        </div>
-        <div class="row gy-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-3 col-md-6">
-                <div class="service-item position-relative">
-                    <div class="icon"> <i class="bi bi-activity"></i></div>
-                    <h3>Nesciunt Mete</h3>
-                    <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-                    <a href="index.html#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                </div>
+        <div class="row gy-4 aos-init aos-animate mb-5" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-3 col-md-6 mt-5">
+                <img class="img-fluid" src="../../../../public/statics/images/01.jpg" alt="">
             </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="service-item position-relative">
-                    <div class="icon"> <i class="bi bi-broadcast"></i></div>
-                    <h3>Eosle Commodi</h3>
-                    <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-                    <a href="index.html#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                </div>
+            <div class="col-lg-3 col-md-6 mt-5">
+                <img class="img-fluid" src="../../../../public/statics/images/01.jpg" alt="">
             </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="service-item position-relative">
-                    <div class="icon"> <i class="bi bi-easel"></i></div>
-                    <h3>Ledo Markt</h3>
-                    <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-                    <a href="index.html#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                </div>
+            <div class="col-lg-3 col-md-6 mt-5">
+                <img class="img-fluid" src="../../../../public/statics/images/01.jpg" alt="">
             </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="service-item position-relative">
-                    <div class="icon"> <i class="bi bi-easel"></i></div>
-                    <h3>Ledo Markt</h3>
-                    <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-                    <a href="index.html#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                </div>
+            <div class="col-lg-3 col-md-6 mt-5">
+                <img class="img-fluid" src="../../../../public/statics/images/01.jpg" alt="">
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4">
+        <div class="container">
+        <div class="row mt-2 pb-5">
+            <div class="col-md-4 pt-5">
                 <div class="partner-line"></div>
-                Partenaires et Sponsorts
+                <h4 class="text-black-50">Partenaires et Sponsorts</h4>
             </div>
             <div class="col-md-8">
-                df
+                <img class="img-fluid me-4" src="../../../../public/statics/images/partners/1.jpg" alt="">
+                <img class="img-fluid me-4" src="../../../../public/statics/images/partners/2.jpg" alt="">
+                <img class="img-fluid me-4" src="../../../../public/statics/images/partners/3.jpg" alt="">
+                <img class="img-fluid me-4" src="../../../../public/statics/images/partners/4.jpg" alt="">
+                <!-- <img class="img-fluid me-4" src="../../../../public/statics/images/partners/5.jpg" alt=""> -->
+                <!-- <img class="img-fluid me-4" src="../../../../public/statics/images/partners/6.jpg" alt=""> -->
+                <!-- <img class="img-fluid me-4" src="../../../../public/statics/images/partners/1.jpg" alt=""> -->
+
             </div>
         </div>
-        <div class="row d-flex justify-content-md-between">
-            <div class="col-md-9">
-               
-               <h5>CONFIGUREZ VOTRE MAISON AVEC UN DEVIS GRATUIT</h5>
-               <h6>En quelques clics recevez un devis par mail</h6>
-            </div>
-            <div class="col-md-3">
-                df
-            </div>
+
         </div>
+
     </div>
 
 </section>
@@ -168,12 +166,6 @@ export default {
 
 }
 
-.hero h1 {
-    font-size: 70px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: #fff;
-}
 
 .hero p {
     font-size: 42px;
@@ -181,11 +173,13 @@ export default {
     margin-bottom: 20px;
     color: #fff;
 }
-.partner-line{
+
+.partner-line {
     height: 8px;
     width: 20%;
     background-color: #2b7de1;
 }
+
 #services {
     border-top: 20px solid #001b71;
 }

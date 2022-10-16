@@ -1,4 +1,22 @@
 <template>
+<div class="container-fluid bg-gray-1">
+    <div class="container">
+        <div class="row d-flex justify-content-md-between py-5 text-dossa">
+            <div class="col-md-9">
+
+                <h3 class="fw-bold">CONFIGUREZ VOTRE MAISON AVEC UN DEVIS GRATUIT</h3>
+                <h4>En quelques clics recevez un devis par mail</h4>
+            </div>
+            <div class="col-md-3">
+                <!-- <a class="me-md-2 btn btn-primary bg-dossa" :href="route('front.index')">Trouvez un plan</a> -->
+
+                <Link class="btn btn-outline-dark text-dossa" style="border: 2px solid #001b71" :href="route('front.index')"><b>Trouvez un plan</b> </Link>
+
+            </div>
+        </div>
+
+    </div>
+</div>
 <footer id="footer" class="footer">
     <div class="container">
         <div class="row gy-4">
@@ -8,15 +26,15 @@
 
             </div>
             <div class="col-lg-3 col-6 footer-links text-end pe-md-5">
-                <h4>Useful Links</h4>
+                <h4>Liens Utiles</h4>
                 <ul>
-                    <li><a href="##">Accueil</a></li>
-                    <li><a href="##">Plans</a></li>
-                    <li><a href="##">Nos projets</a></li>
-                    <li><a href="##">Nos réalisations</a></li>
-                    <li><a href="##">Qui sommes-nous ?</a></li>
-                    <li><a href="##">Contacts</a></li>
-                    <li><a href="##">Conseil</a></li>
+                    <li><Link :href="route('front.index')">Accueil</Link></li>
+                    <li><Link :href="route('front.plan')">Plans</Link></li>
+                    <li><Link href="#">Nos projets</Link></li>
+                    <li><Link :href="route('front.realization')">Nos réalisations</Link></li>
+                    <li><Link :href="route('front.who')">Qui sommes-nous ?</Link></li>
+                    <li><Link :href="route('front.contact')">Contacts</Link></li>
+                    <li><Link href="#">Conseil</Link></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-6 footer-links">
@@ -47,3 +65,12 @@
     </div>
 </footer>
 </template>
+<script>
+import { Link } from '@inertiajs/inertia-vue3';
+
+export default {
+    components: {
+        Link
+    },
+}
+</script>
