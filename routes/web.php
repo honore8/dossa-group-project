@@ -28,3 +28,12 @@ Route::controller(FrontController::class)->group(function () {
         Route::get('/qui-sommes-nous ', 'who')->name('who');
     });
 });
+
+Route::controller(AdminController::class)->group(function () {
+    Route::name('admin.')->group(function () {
+    Route::prefix('admin')->group(function () {
+        Route::get('/', 'index')->name('index');
+        Route::get('/ajouter-publication', 'addPost')->name('add.post');
+    });
+    });
+});
